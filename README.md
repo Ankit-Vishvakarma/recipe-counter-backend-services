@@ -15,11 +15,6 @@ A Spring Boot–based orchestration API that:
 - **Data Loading Endpoint**: Fetches all recipes from the DummyJSON API and stores them in the H2 in-memory DB.
 - **Search Recipes**: Supports free text search on recipe `name` and `cuisine`.
 - **Get by ID**: Fetch specific recipe details by ID.
-- **Swagger/OpenAPI** documentation.
-- **Resilient External Calls** using retry & timeout mechanisms.
-- **Environment Layering**: Supports `dev`, `test`, and `prod` profiles.
-- **Unit Tests** with high code coverage.
-
 ---
 
 ## 🛠 Tech Stack
@@ -27,12 +22,8 @@ A Spring Boot–based orchestration API that:
 - **Java**
 - **Spring Boot**
 - **Spring Data JPA**
-- **Hibernate Search (Lucene)**
 - **H2 In-Memory Database**
 - **Spring Web**
-- **Spring Validation**
-- **OpenAPI/Swagger** (springdoc-openapi)
-- **Resilience4j** (for retries/timeouts)
 - **Lombok** (for boilerplate reduction)
 
 ---
